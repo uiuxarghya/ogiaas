@@ -52,8 +52,8 @@ function getArray(stringOrArray: string[] | string | undefined): string[] {
 
 function getDefaultImages(images: string[], theme: Theme): string[] {
     const defaultImage = theme === 'light'
-        ? 'https://javaistic-assets.vercel.app/logo/ogiaas-logo-main.svg'
-        : 'https://javaistic-assets.vercel.app/logo/ogiaas-logo-alt.svg';
+        ? 'https://javaistic-assets.vercel.app/ogiaas/ogiaas-logo-black.svg'
+        : 'https://javaistic-assets.vercel.app/ogiaas/ogiaas-logo-white.svg';
 
     if (!images || !images[0]) {
         return [defaultImage];

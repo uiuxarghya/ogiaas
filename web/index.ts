@@ -142,12 +142,12 @@ const markdownOptions: DropdownOption[] = [
 ];
 
 const imageLightOptions: DropdownOption[] = [
-    { text: 'OGIaaS', value: 'https://OGIaaS-assets.vercel.app/logo/ogiaas-logo-main.svg' },
+    { text: 'OGIaaS', value: 'https://javaistic-assets.vercel.app/ogiaas/ogiaas-logo-black.svg' },
 ];
 
 const imageDarkOptions: DropdownOption[] = [
 
-    { text: 'OGIaaS', value: 'https://OGIaaS-assets.vercel.app/logo/ogiaas-logo-alt.svg' },
+    { text: 'OGIaaS', value: 'https://javaistic-assets.vercel.app/ogiaas/ogiaas-logo-white.svg' },
 ];
 
 const widthOptions = [
