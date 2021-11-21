@@ -142,12 +142,12 @@ const markdownOptions: DropdownOption[] = [
 ];
 
 const imageLightOptions: DropdownOption[] = [
-    { text: 'OGIaaS', value: 'https://javaistic-assets.vercel.app/ogiaas/ogiaas-logo-black.svg' },
+    { text: 'OGIaaS', value: 'https://assets-ss.vercel.app/logos/ogiaas/ogiaas-logo-black.svg' },
 ];
 
 const imageDarkOptions: DropdownOption[] = [
 
-    { text: 'OGIaaS', value: 'https://javaistic-assets.vercel.app/ogiaas/ogiaas-logo-white.svg' },
+    { text: 'OGIaaS', value: 'https://assets-ss.vercel.app/logos/ogiaas/ogiaas-logo-white.svg' },
 ];
 
 const widthOptions = [
@@ -374,7 +374,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
                         label: `Add Image ${images.length + 1}`,
                         onclick: () => {
                             const nextImage = images.length === 1
-                                ? 'https://javaistic-assets.vercel.app/logo/javaistic-logo-main.svg'
+                                ? 'https://assets-ss.vercel.app/logos/superior-stack/superior-stack-main-logo.svg'
                                 : '';
                             setLoadingState({ images: [...images, nextImage] })
                         }
