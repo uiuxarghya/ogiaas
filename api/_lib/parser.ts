@@ -52,13 +52,13 @@ function getArray(stringOrArray: string[] | string | undefined): string[] {
 
 function getDefaultImages(images: string[], theme: Theme): string[] {
     const defaultImage = theme === 'light'
-        ? 'https://javaistic-assets.vercel.app/ogiaas/ogiaas-logo-black.svg'
-        : 'https://javaistic-assets.vercel.app/ogiaas/ogiaas-logo-white.svg';
+        ? 'https://assets-ss.vercel.app/logos/ogiaas/ogiaas-logo-black.svg'
+        : 'https://assets-ss.vercel.app/logos/ogiaas/ogiaas-logo-white.svg';
 
     if (!images || !images[0]) {
         return [defaultImage];
     }
-    if (!images[0].startsWith('https://javaistic-assets.vercel.app/')) {
+    if (!images[0].startsWith('https://assets-ss.vercel.app/')) {
         images[0] = defaultImage;
     }
     return images;
